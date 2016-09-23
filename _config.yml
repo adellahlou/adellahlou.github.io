@@ -23,3 +23,16 @@ version:          0.1.0
 
 github:
   repo:           https://github.com/adellahlou
+
+
+# Collections
+collections:
+  projects
+    permalink: /projects/:path/
+
+defaults:
+  scope:
+    path: "/project/"
+    type: projects
+  values:
+    layout: project
