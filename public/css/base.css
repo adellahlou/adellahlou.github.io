@@ -1,7 +1,7 @@
 .white-text {
 	color:white;
 	text-decoration: none;
-
+}
 /* skills.html */
 table.skill {
 	margin: 50px 0;
@@ -10,7 +10,9 @@ table.skill {
 table.skill > tbody > tr > td {
 	vertical-align: middle;
 }
-
+table.skill > tbody > tr > td > i {
+	font-size:120%;
+}
 table.skill > tbody > tr > td > h1.content-subhead {
 	margin: 0px;
 	padding: inherit;
