@@ -27,7 +27,7 @@ github:
 
 # Collections
 collections:
-  projects
+  projects:
     permalink: /projects/:path/
 
 defaults:
