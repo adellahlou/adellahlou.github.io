@@ -1,6 +1,45 @@
+/* skills.html */
+table.skill {
+	margin: 50px 0;
+	font-size: 130%;
+	width:100%;
+}
+table.skill > tbody > tr > td {
+	vertical-align: middle;
+}
+table.skill > tbody > tr > td > i {
+	font-size:150%;
+}
+table.skill > tbody > tr > td > h1.content-subhead {
+	font-size: 120%;
+	margin: 0px;
+	padding: inherit;
+	padding-right: 0;
+	padding-left: 0;
+}
 table.skill > tbody > tr > td.table-head {
-	background-color: #521973;
+	background-color: #8e44ad;
 }
 table.skill > tbody > tr > td.table-head.odd {
-	background-color:rgb(220, 180, 20);
+	background-color: #2ecc71;
 }
+
+/* experience.html */
+table.experience {
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+img.pure-img-responsive.experience {
+	width: 13em;
+	min-width: 13em;
+}
+
+/* project.html */
+span.link-header {
+	display:block;
+}
+span.link-header > h1, span.link-header > h4 {
+	display: inline;
+	text-decoration: none;
+	font-weight:300;
