@@ -13,7 +13,7 @@ table.skill > tbody > tr > td {
 table.skill > tbody > tr > td > i {
 	font-size:120%;
 }
-table.skill > tbody > tr > td > h1.content-subhead {
+table.skill > tbody > tr > td > h3.content-subhead {
 	margin: 0px;
 	padding: inherit;
 	padding-right: 0;

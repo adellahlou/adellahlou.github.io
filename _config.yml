@@ -28,11 +28,3 @@ github:
 # Collections
 collections:
   projects:
-    permalink: /projects/:path/
-
-defaults:
-  scope:
-    path: "/project/"
-    type: projects
-  values:
-    layout: project
