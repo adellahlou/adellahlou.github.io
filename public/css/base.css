@@ -1,0 +1,6 @@
+table.skill > tbody > tr > td.table-head {
+	background-color: #521973;
+}
+table.skill > tbody > tr > td.table-head.odd {
+	background-color:rgb(220, 180, 20);
+}
