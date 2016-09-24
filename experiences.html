@@ -1,0 +1,27 @@
+---
+layout: page
+title: Experience
+---
+
+{% assign experiences = site.projects }
+{% for experience in experiences %}
+<table class="pure-table experience">
+  <tbody>
+      <tr>
+          <div class="unwrapper">
+          <td class="row-me">
+              <a href="{{ page.orgLink }}">
+                <img class="pure-img-responsive" src="{{ site.baseurl }}{{ page.iconLink }}" alt="{{ page.altText}}">
+              </a>
+          </td>
+          <td class="row-me">
+              {{ content }}
+          </td>
+          </div>
+      </tr>
+  </tbody>
+</table>
+{% unless forLoop.last }
+<hr>
+{% endunless %}
+{% endfor %}
