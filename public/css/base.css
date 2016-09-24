@@ -39,6 +39,7 @@ table.skill > tbody > tr > td.table-head.odd {
 /* experiences.html */
 table.experience {
 	border: none;
+	background-color: transparent;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
