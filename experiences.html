@@ -4,23 +4,28 @@ title: Experience
 ---
 
 
+<div class="posts">
+{% assign experience_list = site.experiences %}
 {% for experience in site.experiences %}
-  <p>{{experience}}</p>
-{% endfor %}
-<table class="pure-table experience">
+<table class="pure-table">
   <tbody>
       <tr>
           <div class="unwrapper">
           <td class="row-me">
-              <a href="{{ page.orgLink }}">
-                <img class="pure-img-responsive" src="{{ site.baseurl }}{{ page.iconLink }}" alt="{{ page.altText}}" />
+              <a href="{{ experience.orgLink }}">
+                <img class="pure-img-responsive" src="{{ site.baseurl }}{{ experience.iconLink }}" alt="{{ experience.altText}}" />
               </a>
           </td>
           <td class="row-me">
-
+            {{ experience.content }}
           </td>
           </div>
       </tr>
   </tbody>
 </table>
+
+{% unless forLoop.last %}
 <hr>
+{% endunless %}
+{% endfor %}
+</div>
