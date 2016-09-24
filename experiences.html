@@ -14,8 +14,12 @@ title: Experience
     <tbody>
         <tr>
             <td class="row-me">
-              {% assign orgnizations_list = experience.organizations }
-              {{ organizations_list }}
+              {% assign orgnizations_list = experience.organizations %}
+              {% for org in organizations_list %}
+                <a href="{{ org.orgLink }}">
+                  <img class="pure-img-responsive" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />
+                </a>
+              {% endfor %}
             </td>
             <td class="row-me">
               {{ experience.content }}
