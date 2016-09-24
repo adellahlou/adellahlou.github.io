@@ -14,7 +14,6 @@ title: Experience
     <tbody>
         <tr>
             <td class="row-me">
-              {{ experience.organizations }}
               {% for org in experience.organizations %}
                 <a href="{{ org.orgLink }}">
                   <img class="pure-img-responsive" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />

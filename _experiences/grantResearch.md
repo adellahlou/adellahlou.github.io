@@ -1,10 +1,10 @@
 ---
 title: Research and Service Grants
 organizations:
-  - image: public/images/northwestern_horizontal.png
+  - image: public/images/northwestern.png
     orgLink: http://undergradresearch.northwestern.edu/
     altText: Northwestern University
-  - image: public/images/questbridge_horizontal.png
+  - image: public/images/questbridge.gif
     orgLink: https://www.questbridge.org/scholars/summer-service-grant
     altText: QuestBridge
 ---
