@@ -7,9 +7,11 @@ title: Projects
   {% assign project_list = site.projects %}
   {% for project in site.projects %}
   <div class="post">
-    <h1 class="post-title">
+    <span>
+      <h1 class="post-title">
         {{ project.title }}
-    </h1>
+      </h1>
+    </span>
     <span class="post-date">{{ project.tagline }}</span>
     {{ project.content }}
   </div>
