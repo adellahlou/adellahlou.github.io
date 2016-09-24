@@ -1,9 +1,9 @@
 ---
-layout: experience
 title: Microsoft SDE Intern
-orgLink: https://www.microsoft.com/en-us/dynamics/crm.aspx
-iconLink: public/images/microsoftcrm.jpeg
-altText: Microsoft Dynamics CRM
+organizations:
+  - image: public/images/microsoftcrm.jpeg
+    orgLink: https://www.microsoft.com/en-us/dynamics/crm.aspx
+    altText: Microsoft Dynamics CRM
 ---
 
 <p class="lead">

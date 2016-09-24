@@ -1,31 +1,12 @@
 ---
+title: Research and Service Grants
+organizations:
+  - image: public/images/northwestern_horizontal.png
+    orgLink: http://undergradresearch.northwestern.edu/
+    altText: Northwestern University
+  - image: public/images/questbridge_horizontal.png
+    orgLink: https://www.questbridge.org/scholars/summer-service-grant
+    altText: QuestBridge
 ---
 
-
-<table class="pure-table experience">
-  <tbody>
-      <tr>
-          <div class="unwrapper">
-          <td class="row-me">
-              <a href="https://www.microsoft.com/en-us/dynamics/crm.aspx">
-                <img class="pure-img-responsive" src="{{ site.baseurl }}public/images/microsoftcrm.jpeg" alt="Microsoft CRM">
-              </a>
-          </td>
-          <td class="row-me">
-              <p class="lead">
-                I interned at Microsoft on the CRM Product's Data Services team. I worked on P0 feature to make scalable file storage and make files a first-class entity for future services.
-              </p>
-              <p class="lead">
-
-              </p>
-              <p class="lead">
-              </p>
-              <p class="lead">
-              </p>
-          </td>
-          </div>
-      </tr>
-  </tbody>
-</table>
-
-<hr>
+I received grants to evaluate available smartphone inertial positioning practices. Ultimately, I explored lightweight, context-aware positioning algorithms. This means that the application would try to identify context and adapt the calculation to account for things like activity (running, biking) or phone placement. I used an Android phone and a basic robot to collect accelerometer, gyroscope, and magnetometer data as well as collected video data to evaluate origins of relative positioning error in different contexts.

@@ -5,27 +5,32 @@ title: Experience
 
 
 <div class="posts">
+
 {% assign experience_list = site.experiences %}
 {% for experience in site.experiences %}
-<table class="pure-table">
-  <tbody>
-      <tr>
-          <div class="unwrapper">
-          <td class="row-me">
-              <a href="{{ experience.orgLink }}">
-                <img class="pure-img-responsive" src="{{ site.baseurl }}{{ experience.iconLink }}" alt="{{ experience.altText}}" />
-              </a>
-          </td>
-          <td class="row-me">
-            {{ experience.content }}
-          </td>
-          </div>
-      </tr>
-  </tbody>
-</table>
+<div class="unwrapper">
+  <table class="pure-table">
+    <tbody>
+        <tr>
+            <td class="row-me">
+              {% for org in experience.organizations %}
+                <a href="{{ org.orgLink }}">
+                  <img class="pure-img-responsive" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />
+                </a>
+              {% end for %}
+            </td>
+            <td class="row-me">
+              {{ experience.content }}
+            </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
 
 {% unless forLoop.last %}
 <hr>
 {% endunless %}
 {% endfor %}
+
 </div>
