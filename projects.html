@@ -7,11 +7,21 @@ title: Projects
   {% assign project_list = site.projects %}
   {% for project in site.projects %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ project.url }}">
+    <span class="link-header">
+      <h1 class="post-title ">
         {{ project.title }}
-      </a>
-    </h1>
+      </h1>
+      {% if project.github %}
+      <a href="{{project.github}}"><i class="fa fa-git-square fa-fw fa-2x"></a>
+      {% endif %}
+      {% if project.link %}
+      <a href="{{project.link}}"><i class="fa fa-code fa-fw fa-2x"></a>
+      {% endif %}
+      {% if project.attachment %}
+      <a href="{{project.attachment}}"><i class="fa fa-file fa-fw fa-2x"></a>
+      {% endif %}
+    </span>
+    <hr/>
     <span class="post-date">{{ project.tagline }}</span>
     {{ project.content }}
   </div>
