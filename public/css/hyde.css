@@ -155,14 +155,14 @@ a.sidebar-nav-item:focus {
   }
   .layout-reverse .content {
     margin-left: 2rem;
-    margin-right: 14rem;
+    margin-right: 20rem;
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 16rem;
+    margin-right: 22rem;
   }
 }
 
@@ -247,15 +247,4 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
-}
-
-
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #2c3e50;
-}
-.theme-base-custom .content a,
-.theme-base-custom .related-posts li a:hover {
-  color: #2c3e50;
 }

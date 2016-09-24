@@ -9,7 +9,7 @@ title: Experience
 {% assign experience_list = site.experiences %}
 {% for experience in experience_list%}
 
-  <table class="pure-table">
+  <table class="pure-table experience">
     <tbody>
         <tr>
           <div class="unwrapper">
@@ -17,7 +17,7 @@ title: Experience
             <td class="row-me">
               {% for org in experience.organizations %}
                 <a href="{{ org.orgLink }}">
-                  <img class="pure-img-responsive" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />
+                  <img class="pure-img-responsive experience" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />
                 </a>
               {% endfor %}
             </td>

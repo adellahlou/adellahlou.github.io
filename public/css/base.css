@@ -30,13 +30,13 @@ table.skill > tbody > tr > td > h3.content-subhead {
 	padding-left: 0;
 }
 table.skill > tbody > tr > td.table-head {
-	background-color: #8e44ad;
+	background-color: #34495e;
 }
 table.skill > tbody > tr > td.table-head.odd {
-	background-color: #2ecc71;
+	background-color: #7f8c8d;
 }
 
-/* experience.html */
+/* experiences.html */
 table.experience {
 	border: none;
 	margin-top: 50px;
