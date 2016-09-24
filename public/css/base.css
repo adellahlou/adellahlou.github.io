@@ -48,6 +48,10 @@ img.pure-img-responsive.experience {
 	min-width: 13em;
 }
 
+tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th, .experience {
+	background: #fff;
+}
+
 /* project.html */
 span.link-header {
 	display:block;
