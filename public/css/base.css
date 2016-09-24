@@ -29,10 +29,10 @@ table.skill > tbody > tr > td > h3.content-subhead {
 	padding-right: 0;
 	padding-left: 0;
 }
-table.skill > tbody > th > td.table-head {
+table.skill > tbody > tr > td.table-head {
 	background-color: #8e44ad;
 }
-table.skill > tbody > th > td.table-head.odd {
+table.skill > tbody > tr > td.table-head.odd {
 	background-color: #2ecc71;
 }
 
