@@ -13,7 +13,6 @@ title: Experience
     <tbody>
         <tr>
           <div class="unwrapper">
-
             <td class="row-me">
               {% for org in experience.organizations %}
                 <a href="{{ org.orgLink }}">
@@ -25,7 +24,6 @@ title: Experience
               {{ experience.content }}
             </td>
           </div>
-
         </tr>
     </tbody>
   </table>
@@ -35,4 +33,5 @@ title: Experience
 {% endunless %}
 {% endfor %}
 
+<p><strong><a href="{{ site.baseurl }}projects">Not enough? Look at some of some different projects of mine.</a></strong></p>
 </div>
