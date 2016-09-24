@@ -9,10 +9,11 @@ title: Experience
 {% assign experience_list = site.experiences %}
 {% for experience in experience_list%}
 
-<div class="unwrapper">
   <table class="pure-table">
     <tbody>
         <tr>
+          <div class="unwrapper">
+
             <td class="row-me">
               {% for org in experience.organizations %}
                 <a href="{{ org.orgLink }}">
@@ -23,10 +24,11 @@ title: Experience
             <td class="row-me">
               {{ experience.content }}
             </td>
+          </div>
+
         </tr>
     </tbody>
   </table>
-</div>
 
 {% unless forloop.last %}
 <hr>
