@@ -7,17 +7,18 @@ title: Experience
 <div class="posts">
 
 {% assign experience_list = site.experiences %}
-{% for experience in site.experiences %}
+{% for experience in experience_list%}
 <div class="unwrapper">
   <table class="pure-table">
     <tbody>
         <tr>
             <td class="row-me">
-              {% for org in experience.organizations %}
+              {% assign orgnizations_list }
+              {% for org in organizations_list %}
                 <a href="{{ org.orgLink }}">
                   <img class="pure-img-responsive" src="{{ site.baseurl }}{{ org.image }}" alt="{{ org.altText}}" />
                 </a>
-              {% end for %}
+              {% endfor %}
             </td>
             <td class="row-me">
               {{ experience.content }}
